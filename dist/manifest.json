@@ -2,7 +2,6 @@
   "manifest_version": 3,
   "name": "Axmax原型托管",
   "version": "0.0.1",
-
   "action": {
     "default_popup": "popup.html"
   },
@@ -15,14 +14,16 @@
     "128": "assets/img/icon_128.png"
   },
   "externally_connectable": {
-    "matches": ["*://*.example.com/*"]
+    "matches": [
+      "*://*.example.com/*"
+    ]
   },
   "file_system_provider_capabilities": {
     "configurable": true,
     "multiple_mounts": true,
     "source": "network"
   },
-  "homepage_url": "https://mgdata.110.cqqgsafe.com",
+  "homepage_url": "https://axmax.cn",
   "offline_enabled": true,
   "omnibox": {
     "keyword": "aString"
