@@ -1,21 +1,22 @@
 {
   "manifest_version": 3,
-  "name": "chrome-extension", 
-  "version": "0.0.1", 
-
+  "name": "Axmax原型托管",
+  "version": "0.0.1",
   "action": {
     "default_popup": "popup.html"
   },
   "devtools_page": "devtools.html",
-  "default_locale": "en",
-  "description": "A plain text description",
+  "default_locale": "zh",
+  "description": "可以一键同步原型到 Axmax 或者团队的服务器",
   "icons": {
     "16": "assets/img/icon_16.png",
     "48": "assets/img/icon_48.png",
     "128": "assets/img/icon_128.png"
   },
   "externally_connectable": {
-    "matches": ["*://*.example.com/*"]
+    "matches": [
+      "*://*.example.com/*"
+    ]
   },
   "file_system_provider_capabilities": {
     "configurable": true,

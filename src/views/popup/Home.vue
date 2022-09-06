@@ -1,12 +1,10 @@
 <template>
   <div id="popup-home">
-    <h1>Popup Demo</h1>
+    <h1>Axmax原型托管</h1>
     <div>
       <van-button type="primary">主要按钮</van-button>
       <van-button type="success">主要按钮</van-button>
       <van-button type="default">主要按钮</van-button>
-      <van-button type="warning">主要按钮</van-button>
-      <van-button type="danger">主要按钮</van-button>
     </div>
     <div>
       <van-cell-group>

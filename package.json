@@ -1,13 +1,13 @@
 {
-  "name": "crx-template",
+  "name": "axmax-plugin",
   "version": "1.0.0",
-  "description": "chrome extension template",
+  "description": "axmax原型托管",
   "scripts": {
     "dev": "./node_modules/.bin/webpack -c ./build/dev.js --progress",
     "build": "./node_modules/.bin/webpack -c ./build/prod.js",
     "lint": "./node_modules/.bin/eslint \"src/**/*.{js,vue}\""
   },
-  "author": "adolph",
+  "author": "pange",
   "license": "MIT",
   "pre-commit": [
     "lint"
@@ -25,6 +25,7 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.13",
     "@babel/preset-env": "^7.16.7",
     "autoprefixer": "^10.4.1",
     "babel-loader": "^8.2.3",
